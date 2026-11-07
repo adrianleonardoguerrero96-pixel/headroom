@@ -67,7 +67,7 @@ proxy = [
     "fastapi>=0.100.0",
     "uvicorn>=0.23.0,<1.0",
     "httpx[http2]>=0.24.0",
-    "openai>=2.14.0",             # OpenAI API format support
+    "openai>=3.45.0",             # OpenAI API format support
     "mcp>=1.0.0",                 # MCP server (headroom_compress, retrieve, stats)
     "magika>=0.6.0",              # ML content detection for ContentRouter
     "zstandard>=0.20.0",          # Decompress zstd request bodies (Codex, etc.)
@@ -227,7 +227,7 @@ evals = [
     "numpy>=1.24.0",
     "scikit-learn>=1.3.0",
     "anthropic>=0.18.0",
-    "openai>=1.0.0",
+    "openai>=3.45.0",
 ]
 # AWS Bedrock backend
 bedrock = [
@@ -246,7 +246,7 @@ html = [
 # Comprehensive LLM benchmarks
 benchmark = [
     "lm-eval[api]>=0.4.0",
-    "openai>=1.0.0",
+    "openai>=3.45.0",
     "anthropic>=0.18.0",
 ]
 # Development dependencies
@@ -257,7 +257,7 @@ dev = [
     "ruff>=0.1.0",
     "mypy>=1.0.0",
     "pre-commit>=3.0.0",
-    "openai>=1.0.0",
+    "openai>=3.45.0",
     "anthropic>=0.18.0",
     "litellm>=1.86.2,<2.0; python_version < '3.14'",  # see core deps note (GH #956)
     "fastapi>=0.100.0",
